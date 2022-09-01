@@ -28,12 +28,12 @@ public class Execute01 {
         st.execute(sql2);
 
         //3.Ornek: workers tablosunu sil
-        String sql3 = "DROP TABLE workers";
-        st.execute(sql3);
+        // String sql3 = "DROP TABLE workers";
+        //st.execute(sql3);
 
         // 5. Adim: Baglanti ve Statement'i kapat
-        con.close();
-        st.close();
+        //con.close();
+        // st.close();
 
     }
 }

@@ -31,11 +31,9 @@ public class Execute02 {
 
         while (result3.next()) {
             System.out.println(result3.getInt("company_id") + "--" + result3.getString("company") + "--" + result3.getInt("number_of_employees"));
-
-            con.close();
-            st.close();
-
         }
+
+
     }
 }
 
