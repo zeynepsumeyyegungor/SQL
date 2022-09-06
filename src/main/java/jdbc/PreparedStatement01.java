@@ -45,6 +45,8 @@ public class PreparedStatement01 {
         while (result4.next()) {
 
             System.out.println(result4.getInt(1)+"- -"+result4.getString(2)+"- -"+result4.getInt(3));
+
+
         }
     }
 }
