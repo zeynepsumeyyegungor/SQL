@@ -2,7 +2,7 @@ package jdbc_practice;
 
 import java.sql.*;
 
-public class Query3 {
+public class Query03 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");
 
